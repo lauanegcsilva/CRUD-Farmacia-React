@@ -37,9 +37,9 @@ function DeletarCategoria() {
     try {
       await deletar(`/categorias/${id}`, {});
 
-      alert("Categoria apagado com sucesso");
+      alert("Categoria apagada com sucesso");
     } catch (error) {
-      alert("Erro ao apagar o Categoria");
+      alert("Erro ao apagar a Categoria");
     }
 
     retornar();
@@ -50,7 +50,7 @@ function DeletarCategoria() {
       <h1 className="text-4xl text-center my-4">Deletar Categoria</h1>
 
       <p className="text-center font-semibold mb-4">
-        Você tem certeza de que deseja apagar o Categoria a seguir?
+        Você tem certeza de que deseja apagar a Categoria a seguir?
       </p>
 
       <div className="border flex flex-col rounded-2xl overflow-hidden justify-between">

@@ -15,7 +15,7 @@ function FormularioCategoria() {
   const { id } = useParams<{ id: string }>();
 
   async function buscarPorId(id: string) {
-    await buscar(`/Categorias/${id}`, setCategoria, {});
+    await buscar(`/categorias/${id}`, setCategoria, {});
   }
 
   useEffect(() => {
@@ -38,7 +38,7 @@ function FormularioCategoria() {
 
     if (id !== undefined) {
       try {
-        await atualizar(`/categorias/`, categoria, setCategoria, {});
+        await atualizar(`/categorias`, categoria, setCategoria, {});
 
         alert("Categoria atualizada com sucesso");
         retornar();
