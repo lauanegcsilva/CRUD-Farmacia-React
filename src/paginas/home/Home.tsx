@@ -1,4 +1,6 @@
 import "./Home.css";
+import ListaProdutos from "../../components/produtos/listaProdutos/ListaProdutos";
+import ModalProduto from "../../components/produtos/modalProduto/ModalProdutos";
 
 function Home() {
   return (
@@ -10,7 +12,10 @@ function Home() {
             <p className="text-xl">A Farmácia aque tem tudo perto de você!</p>
 
             <div className="flex justify-around gap-4">
-              
+              <ModalProduto />
+              <button className="rounded bg-white text-rose-800 py-2 px-4">
+                Ver produtos
+              </button>
             </div>
           </div>
 
@@ -23,6 +28,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <ListaProdutos/>
     </>
   );
 }
