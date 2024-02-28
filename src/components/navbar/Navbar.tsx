@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <div className="w-full bg-red-900 text-white flex justify-center py-4">
         <div className="container flex justify-between text-lg">
-          <div className="text-2xl font-bold uppercase">CRUD Farmácia</div>
+          <div className="text-2xl font-bold uppercase">FarmaVida System</div>
 
           <div className="flex gap-4">
             <Link to="/home" className="hover:underline">

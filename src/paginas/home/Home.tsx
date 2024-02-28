@@ -8,8 +8,10 @@ function Home() {
       <div className="bg-red-800 flex justify-center">
         <div className="container grid grid-cols-2 text-white">
           <div className="flex flex-col gap-4 items-center justify-center py-4">
-            <h2 className="text-5xl font-bold">Seja bem vinde!</h2>
-            <p className="text-xl">A Farmácia aque tem tudo perto de você!</p>
+            <h2 className="text-5xl font-bold">Bem vindo à FarmaVida!</h2>
+            <p className="text-xl">
+              O seu parceiro confiável para uma gestão eficiente
+            </p>
 
             <div className="flex justify-around gap-4">
               <ModalProduto />
@@ -28,7 +30,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <ListaProdutos/>
+      <ListaProdutos />
     </>
   );
 }

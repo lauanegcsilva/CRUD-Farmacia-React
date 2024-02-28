@@ -8,7 +8,7 @@ function Footer() {
     <>
       <div className="flex justify-center bg-red-900 text-white">
         <div className="container flex flex-col items-center py-4">
-          <p className="text-xl font-bold">CRUD Farmácia </p>
+          <p className="text-xl font-bold">FarmaVida System </p>
           <p className="text-lg">Desenvolvido por Lauane Gonçalves</p>
           <div className="flex gap-2">
             <a
